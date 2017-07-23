@@ -1,0 +1,215 @@
+.header-component {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+.global-menu-component {
+    flex-grow: 1;
+    height: 10%;
+}
+
+.global-menu-component .twitter-bird {
+    position: absolute;
+    left: 50%;
+    color: #1da1f2;
+    cursor: pointer;
+    font-size: 21px;
+    display: inline-block;
+    transition: all .25s ease-in-out;
+    font-weight: bold;
+}
+
+.global-menu-component a {
+    color: #66757f;
+    padding: 10px;
+}
+.global-menu-component a:hover {
+    color: #1DA1F2;
+    cursor: pointer;
+}
+
+.global-menu-component a:first-child {
+    margin-right: 10px;
+}
+
+.global-menu-component a:second-child {
+    margin-left: 10px;
+}
+
+.user-info-component {
+    flex-grow: 2;
+    background-color: #1DA1F2;
+}
+
+.user-info-component .profile-picture {
+    background: #fff;
+    border: 5px solid #fff;
+    border-radius: 50%;
+    height: 125px;
+    position: relative;
+    width: 125px;
+    top: 100px;
+    left: 150px;
+}
+
+.user-info-component .profile-picture img{
+    height: 125;
+    width: 125;
+    border-radius: 100%;
+}
+
+.body-component {
+	display: flex;
+    background-color: #e6ecf0;
+}
+
+.body-component .empty-body {
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    color: #66757f;
+}
+
+.body-component .empty-body span {
+    position: relative;
+    top: 35%;
+}
+
+.profile-component {
+	flex-grow: 1;
+	min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.user-name {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.user-description {
+    flex-grow: 2;
+    margin-top: 10px;
+    max-width: 300px;
+}
+
+.current-location, .date-of-joining{
+    color: #657786;
+    margin-top: 10px;
+}
+
+
+.date-of-joining .fa-calendar, .current-location .fa-podcast {
+    margin-right: 10px;
+}
+
+.tweets-component {
+	flex-grow: 3;
+	min-height: 100%;
+	display: flex;
+    flex-direction: column;
+}
+
+.compose-tweet-component {
+	flex-grow: 1;
+	display: flex;
+    margin-bottom: 40px;
+    justify-content: center;
+}
+
+.saved-tweets-component {
+	flex-grow: 3;
+    display: flex;
+    flex-direction: column;
+}
+
+.no-tweets {
+    font-size: 20px;
+    align-self: center;
+}
+
+.tweet {
+    align-self: center;
+    padding: 20px;
+    height: 15%;
+    width: 45%;
+    border-radius: 8px;
+    display: flex;
+    margin-bottom: 50px;
+    margin-top: 20px;
+    background-color: white;
+    border-radius: 5px;
+    background-color: #fff;
+    border: 1px solid #e6ecf0;
+}
+.tweet:hover {
+    background-color: #f5f8fa;
+}
+
+.details {
+    margin-left: 10px;
+}
+
+.tweet .details .user-name {
+    font-weight: bold;
+    font-size: 18px;
+}
+.tweet .details content {
+    font-size: 20px;
+}
+.tweet .details .user-handle {
+
+}
+
+.tweet .img-circle {
+    border-radius: 50%;
+    height: 50;
+    width: 50;
+}
+
+.compose-tweet-wrapper {
+    margin-top: 5%;
+    width: 45%;
+    padding: 20px;
+    border: 1px solid;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    border-color: #A4D9F9;
+    background-color: #E8F5FD;
+}
+
+.compose-tweet-wrapper textarea {
+	border-radius: 12px;
+    padding: 20px;
+    font-size: 12px;
+    outline: none;
+    border-color: #A4D9F9;
+}
+.compose-tweet-wrapper textarea:focus {
+    border-radius: 12px;
+}
+
+.tweet-actions {
+    align-self: flex-end;
+}
+
+.tweet-length {
+    margin-right: 15px;
+    font-size: 14px;
+}
+
+.add-tweet {
+	width: 70px;
+    align-self: flex-end;
+    height: 30px;
+    margin-top: 10px;
+    border-radius: 20px/24px;
+    background-color: #1da1f2;
+    border: 1px solid #1da1f2;
+    color: #fff;
+    cursor: pointer;
+    outline: none;
+}

@@ -1,0 +1,14 @@
+{
+  "user": {
+    "name": "Rahul Joshi",
+    "handle": "@rauhljoshi",
+    "description": "26. Bibliophile. Coder. Thinker. Gastronome. Obsessed with The Arsenal Football Club.",
+    "current-location": "Bangalore",
+    "profile-picture": "./images/user_1.jpg",
+    "date-of-joining": "Joined July 2017",
+    "tweets": [
+      "My Second tweet.I dont quite understand how this works, but hey, will figure it out eventually!",
+      "Hey! Just Joined twitter! This is my first tweeet!"
+    ]
+  }
+}

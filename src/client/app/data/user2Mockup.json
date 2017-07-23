@@ -1,0 +1,14 @@
+{
+  "user": {
+    "name": "Manjul Joshi",
+    "handle": "@manjulj",
+    "description": "Proud IITian. Batch of '84. Passionate about singing!",
+    "current-location": "Bangalore",
+    "date-of-joining": "Joined Jan 2015",
+    "profile-picture": "./images/user_2.jpg",
+    "tweets": [
+      "The summer this time was worse, though!",
+      "Monsoons in Bangalore are horrible!"
+    ]
+  }
+}
