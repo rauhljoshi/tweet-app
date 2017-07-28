@@ -1,14 +1,14 @@
 {
   "name": "tweet-app",
   "version": "1.0.0",
-  "description": "",
+  "description": "A simple web app that works and looks like Twitter.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "webpack -d --watch",
     "build": "webpack -p"
   },
-  "author": "",
+  "author": "Rahul Joshi",
   "license": "ISC",
   "dependencies": {
     "babel-core": "^6.25.0",
